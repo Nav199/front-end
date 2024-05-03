@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importa o CSS do Bootstrap
 import './style/Login.css'; // Importa seu arquivo CSS personalizado
-import Logo from './image/Logo.png'; // Importa a imagem corretamente
+import Logo from './image/Login.png'; // Importa a imagem corretamente
 import { InputText } from 'primereact/inputtext'; // Importa o componente InputText do PrimeReact
 import { Button } from 'primereact/button'; // Importa o componente Button do PrimeReact
 import { FloatLabel } from "primereact/floatlabel";
@@ -17,8 +17,6 @@ const Cadastro = () => {
           <div className="featured-image mb-3s">
             <img src={Logo} className="img-fluid" alt="Logo" />
           </div>
-          <p className="text-white fs-2" style={{ fontSize:'32px', fontFamily: 'Courier New, Courier, monospace' }}>PLANO DE NEGÓCIOS FÁCIL</p>
-          <small className="text-white text-wrap text-center" style={{ width: '17rem', fontFamily: 'Courier New, Courier, monospace' }}>Ferramenta web para plano de negócios</small>
         </div>
         <div className="col-md-6 right-box">
           <div className="row align-items-center">
