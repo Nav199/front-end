@@ -16,7 +16,7 @@ const Cadastro = () => {
         </div>
         <div className="col-md-6 right-box">
           <div className="row align-items-center">
-            <div className="header-text mb-4 text-white">
+            <div className="header-text mb-4 text-white text-center">
               <p >Seja bem vindo (a), para entrar:</p>
             </div>
             <div className="input-group mb-3">
