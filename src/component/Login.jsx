@@ -5,8 +5,8 @@ import Logo from './image/Login.png'; // Importa a imagem corretamente
 import { InputText } from 'primereact/inputtext'; // Importa o componente InputText do PrimeReact
 import { Button } from 'primereact/button'; // Importa o componente Button do PrimeReact
 import { FloatLabel } from "primereact/floatlabel";
-
-const Cadastro = () => {
+import { Link } from 'react-router-dom';
+const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -46,7 +46,7 @@ const Cadastro = () => {
               <Button className="btn btn-lg btn-outline-light w-100 w-md-50 fs-6 mb-2" label="Entrar" />
             </div>
             <div className="row text-white">
-              <small><a href="">Já possui conta?</a></small>
+            <small><Link to="/cadastro">Não possui conta? Cadastre-se</Link></small> {/* Atualiza o texto e o link */}
             </div>
           </div>
         </div>
@@ -55,4 +55,4 @@ const Cadastro = () => {
   );
 }
 
-export default Cadastro;
+export default Login;
